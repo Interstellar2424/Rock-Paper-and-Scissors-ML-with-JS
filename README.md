@@ -6,6 +6,6 @@ This is a Machine Learning Model Created in Teachable Machines which is Configur
 It Detects The Hand-Made Re-Creation of Rock, Paper and Scissors by using Machine Learning Methods to Train the Models In Order to play the Game.
 <br>
 <h1>Thank You!</h1>
-My Project is Available on the URL: https://github.com/Interstellar2424/Rock-Paper-and-Scissors-ML-with-JS/
+My Project is Available on the URL: https://interstellar2424.github.io/Rock-Paper-and-Scissors-ML-with-JS/
 <br>
 Thank You for Using My Website Project!
