@@ -1,3 +1,4 @@
+# Rock-Paper-Scissors
 <hr>
 <h1>Description</h1>
 This is a Machine Learning Model Created in Teachable Machines which is Configured using Java Script with ml5 JS library, whose sole purpose is to Detect a Hand-made Re-creation of rock, paper and Scissors to play the Game: Rock, paper and scissors.
