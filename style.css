@@ -1,10 +1,10 @@
 body {
     font-family: Arial, sans-serif;
     background:
-        linear-gradient(to top left, red, transparent),
-        linear-gradient(to top right, blue, transparent),
-        linear-gradient(to bottom left, green, transparent),
-        linear-gradient(to bottom right, yellow, transparent);
+        linear-gradient(to top left, purple, transparent),
+        linear-gradient(to top right, purple, transparent),
+        linear-gradient(to bottom left, blue, transparent),
+        linear-gradient(to bottom right, blue, transparent);
     display: flex;
     flex-direction: column;
     align-items: center;
