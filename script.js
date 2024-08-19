@@ -2,6 +2,7 @@ const startBtn = document.getElementById("startButton");
 const gesture = document.getElementById("gesture");
 const video = document.getElementById("video");
 const gameResult = document.getElementById("gameResult");
+const info = document.getElementById("info");
 
 //example : https://teachablemachine.withgoogle.com/models/GNNwr7xt-/
 const modelUrl = "https://teachablemachine.withgoogle.com/models/GNNwr7xt-/";
