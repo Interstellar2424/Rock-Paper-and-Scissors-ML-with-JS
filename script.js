@@ -1,6 +1,8 @@
 const startBtn = document.getElementById("startButton");
 const gesture = document.getElementById("gesture");
 const video = document.getElementById("video");
+const result1 = document.getElementById("result1");
+const result2 = document.getElementById("result2");
 const gameResult = document.getElementById("gameResult");
 const info = document.getElementById("info");
 
@@ -51,5 +53,8 @@ function playGame(userChoice) {
   } else {
     result = "You lose!";
   }
-  gameResult.innerText = `Computer chose: ${computerChoice}. ${result}`;
+  result1.innerText = `Player Chose: ${userChoice}`;
+  result2.innerText = `Computer Chose: ${computerChoice}`;
+  gameResult.innerText = `Game Result: ${result}`;
+  info.innerText = `Reload The Page To Play Again`;
 }
