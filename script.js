@@ -23,18 +23,17 @@ async function startVideo() {
   classifyGesture();
 }
 
+startBtn.addEventListener("click", () => {
+  playGame(userChoice);
+});
+
 function classifyGesture() {
   //Part 2 : Use Image Classifer
   classifier.classify(video, (results) => {
     userChoice = results[0].label;
-    gesture.innerText = `Your Gesture: ${userChoice}`;
     classifyGesture()
   });
 }
-
-startBtn.addEventListener("click", () => {
-  playGame(userChoice);
-});
 
 function playGame(userChoice) {
   let choices = ["Rock", "Paper", "Scissors"];
