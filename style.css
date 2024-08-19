@@ -11,7 +11,18 @@ body {
     justify-content: center;
     height: 100vh;
     margin: 0;
-  }
+   }
+div {
+    margin: 20px;
+    padding: 10px;
+    font-size: 18px;
+    color: #555;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    width: 300px;
+    text-align: center;
+}
   h1 {
     color: #ffffff;
   }
